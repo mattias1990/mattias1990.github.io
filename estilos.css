@@ -116,7 +116,7 @@ a:hover {
     padding          : 5%;
     justify-content  : space-between;
     --opacidad-negro : 0.8;
-    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca23.jpg");
+    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca27.png");
     background-repeat: no-repeat;
     background-size  : cover;
 }
