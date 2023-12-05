@@ -93,7 +93,7 @@ a:hover {
 
 .btn-flotante:hover {
     --opacidad-negro: 0.3;
-    background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
+    background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.GIF");
     box-shadow      : 0px 15px 20px rgba(0, 0, 0, 0.3);
     transform       : translateY(-10px);
 }
@@ -116,7 +116,7 @@ a:hover {
     padding          : 5%;
     justify-content  : space-between;
     --opacidad-negro : 0.8;
-    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca24.jpg");
+    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca24.JPG");
     background-repeat: no-repeat;
     background-size  : cover;
 }
