@@ -115,7 +115,7 @@ a:hover {
     height           : 100vh;
     padding          : 5%;
     justify-content  : space-between;
-    --opacidad-negro : 0.6;
+    --opacidad-negro : 0.8;
     background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca24.jpg");
     background-repeat: no-repeat;
     background-size  : cover;
@@ -221,7 +221,7 @@ a:hover {
 
 .recientes {
     display         : inline-block;
-    --opacidad-negro: 0.2;
+    --opacidad-negro: 0.4;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
     background-size : cover;
     padding         : 0.1% 0;
@@ -282,7 +282,7 @@ a:hover {
 
 .libros {
     display         : flow-root;
-    --opacidad-negro: 0.6;
+    --opacidad-negro: 0.8;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/Black\ And\ White.gif");
     font-family     : 'Montserrat', sans-serif;
     border-style    : solid;
@@ -396,7 +396,7 @@ main {
 
 .videos {
     display         : inline-block;
-    --opacidad-negro: 0.2;
+    --opacidad-negro: 0.4;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
     background-size : cover;
     padding         : 0.1% 0;
@@ -456,7 +456,7 @@ main {
 
 .autores {
     display         : inline-block;
-    --opacidad-negro: 0.2;
+    --opacidad-negro: 0.4;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
     background-size : cover;
     padding         : 0.1% 0;
@@ -540,7 +540,7 @@ main {
 .pie-container {
     font-family     : 'Montserrat', sans-serif;
     width           : 100vw;
-    --opacidad-negro: 0.5;
+    --opacidad-negro: 0.7;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
     background-size : cover;
 }
@@ -603,7 +603,7 @@ main {
 }
 
 .pie-container .grupo-2 {
-    --opacidad-negro: 0.5;
+    --opacidad-negro: 0.7;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-negro-brillante.gif");
     background-size : 50%;
     padding         : 15px 10px;
@@ -664,7 +664,7 @@ main {
         height          : 90vh;
         margin-top      : 20px;
         padding         : 10%;
-        --opacidad-negro: 0.4;
+        --opacidad-negro: 0.6;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
         background-size : cover;
         font-family     : 'Montserrat', sans-serif;
@@ -712,7 +712,7 @@ main {
     }
 
     .btn-flotante-mobile:hover {
-        --opacidad-negro: 0.2;
+        --opacidad-negro: 0.3;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
         box-shadow      : 0px 15px 20px rgba(0, 0, 0, 0.3);
         transform       : translateY(-10px);
@@ -727,7 +727,7 @@ main {
 
     .recientes-mobile {
         display         : block;
-        --opacidad-negro: 0.2;
+        --opacidad-negro: 0.4;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
         background-size : cover;
         padding         : 0.1% 0;
@@ -773,7 +773,7 @@ main {
     }
 
     .libros-mobile {
-        --opacidad-negro: 0.5;
+        --opacidad-negro: 0.8;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/Black\ And\ White.gif");
         display         : block;
         padding         : 15%;
@@ -811,7 +811,7 @@ main {
 
     .autores-mobile {
         display         : block;
-        --opacidad-negro: 0.2;
+        --opacidad-negro: 0.4;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
         background-size : cover;
         padding         : 0.1% 0;
@@ -843,7 +843,7 @@ main {
     /* -----PRE FOOTER */
 
     .section-footer {
-        --opacidad-negro: 0.4;
+        --opacidad-negro: 0.6;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("Imagenes/biblioteca27.png");
         background-size : cover;
         height          : 60vh;
@@ -903,7 +903,7 @@ main {
     }
 
     .btn-flotante:hover {
-        --opacidad-negro: 0.2;
+        --opacidad-negro: 0.3;
         background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
         box-shadow      : 0px 15px 20px rgba(0, 0, 0, 0.3);
         transform       : translateY(-10px);
