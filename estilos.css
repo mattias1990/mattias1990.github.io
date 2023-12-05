@@ -585,10 +585,10 @@ main {
     font-weight   : 400;
 }
 
-.pie-container .grupo-1 .box span {
+/* .pie-container .grupo-1 .box span { 
     color      : #000000;
     font-weight: bolder;
-}
+}*/
 
 .pie-container .grupo-1 .red-social a {
     display     : inline-block;
