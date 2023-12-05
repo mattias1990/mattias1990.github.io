@@ -235,7 +235,7 @@ a:hover {
     /* -----FOOTER----- */
 
     .pie-container {
-        width: 100%;
+        width          : 100%;
         background-size: cover;
     }
 
@@ -247,12 +247,12 @@ a:hover {
         width                : 100%;
         display              : flex;
         grid-template-columns: repeat(1, 1fr);
-        gap             : 30px;
+        gap                  : 30px;
         padding              : 25px 0;
     }
 
     .lh {
-        margin-left: 30px;
+        margin-left : 30px;
         margin-right: 60px;
     }
 
