@@ -282,7 +282,7 @@ a:hover {
 
 .libros {
     display         : flow-root;
-    --opacidad-negro: 0.8;
+    --opacidad-negro: 0.7;
     background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("Imagenes/Black\ And\ White.gif");
     font-family     : 'Montserrat', sans-serif;
     border-style    : solid;
