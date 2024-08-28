@@ -1,0 +1,298 @@
+* {
+    margin         : 0;
+    box-sizing     : border-box;
+    text-decoration: none;
+    list-style     : none;
+    scroll-behavior: smooth;
+}
+
+/*OCULTOS EN VERSION DE ESCRITORIO*/
+
+.header-mobile {
+    display: none;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+.contenido-mobile {
+    display: none;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+/*------------------------------------------ body --------------------------------------------*/
+
+body {
+    margin         : 0;
+    background-color: #000000;
+    color          : #fff;
+}
+
+a {
+    color                      : #545454;
+    -webkit-transition-duration: 0.75s;
+    -moz-transition-duration   : 0.75s;
+    -ms-transition-duration    : 0.75s;
+    -o-transition-duration     : 0.75s;
+    transition-duration        : 0.75s;
+}
+
+img {
+    -webkit-transition-duration: 0.75s;
+    -moz-transition-duration   : 0.75s;
+    -ms-transition-duration    : 0.75s;
+    -o-transition-duration     : 0.75s;
+    transition-duration        : 0.75s;
+}
+
+span {
+    -webkit-transition-duration: 0.75s;
+    -moz-transition-duration   : 0.75s;
+    -ms-transition-duration    : 0.75s;
+    -o-transition-duration     : 0.75s;
+    transition-duration        : 0.75s;
+}
+
+a:hover {
+    color: #ff914d;
+    scale: 1.1;
+}
+
+
+/*--------------HEADER--------------*/
+
+.header-container {
+    display          : flex;
+    width            : 100vw;
+    height           : 25vh;
+    padding          : 5%;
+    justify-content  : space-between;
+    --opacidad-negro : 0.8;
+    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca24.jpg");
+    background-repeat: no-repeat;
+    background-size  : cover;
+}
+
+.lithub {
+    width: 120%;
+}
+
+.navbar {
+    width      : 35vw;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar ul li {
+    font-size  : 2.2vw;
+    font-weight: bolder;
+}
+
+.navbar ul li a {
+    margin-left: 5%;
+}
+
+/* -----FORMULARIO----- */
+
+.section-formulario {
+    display   : flex;
+    box-sizing: border-box;
+    height    : 140vh;
+}
+
+.formulario {
+    margin: auto;
+}
+
+.google-form{
+    width : 20vw;
+    height: 10vh;
+}
+
+.google-form {
+    width       : 50vw;
+    height      : 100vh;
+    border-style: solid;
+    border-width: 2%;
+    border-color: #ff914d;
+}
+
+/*--------------FOOTER--------------*/
+
+.pie-container {
+    font-family     : 'Montserrat', sans-serif;
+    width           : 100%;
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-naranja2.gif");
+    background-size : cover;
+}
+
+.pie-container .grupo-1 {
+    width                : 100%;
+    max-width            : 1200px;
+    margin               : auto;
+    display              : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap             : 50px;
+    padding              : 45px 0;
+}
+
+.pie-container .grupo-1 .box figure {
+    width          : 100%;
+    height         : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.pie-container .grupo-1 .box figure img {
+    width: 100px;
+}
+
+.pie-container .grupo-1 .box h2 {
+    margin-bottom: 25px;
+    font-size    : 20px;
+}
+
+.pie-container .grupo-1 .box p {
+    width         : 600px;
+    font-size     : small;
+    margin-bottom : 10px;
+    letter-spacing: 0.2em;
+}
+
+.pie-container .grupo-1 .box h2 {
+    letter-spacing: 0.5em;
+    font-weight   : 400;
+}
+
+.pie-container .grupo-1 .box span {
+    color      : #000000;
+    font-weight: bolder;
+}
+
+.pie-container .grupo-1 .red-social a {
+    display     : inline-block;
+    width       : 45px;
+    height      : 35px;
+    line-height : 45px;
+    margin-right: 60px;
+    text-align  : center;
+}
+
+.icono-red {
+    margin: 25%;
+}
+
+footer .grupo-2 {
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/gif-negro-brillante.gif");
+    background-size : 50%;
+    padding         : 15px 10px;
+    text-align      : center;
+}
+
+
+
+
+
+@media (max-width:1084px) {
+
+    * {
+        box-sizing     : border-box;
+        max-width      : 1084px;
+        color          : #fff;
+        text-decoration: none;
+        list-style     : none;
+    }
+
+    /* -----pantalla inicio----- */
+
+    .header-mobile {
+        display         : inline;
+        background-color: #000000;
+        width           : 100vw;
+    }
+
+    .mobile-logo {
+        background: none;
+        display   : flex;
+        width     : 80vw;
+        margin    : 0 auto 40px;
+    }
+
+    .navbar-mobile {
+        display        : flex;
+        justify-content: space-between;
+        margin         : 0 40px;
+        font-size      : 2vh;
+        font-family    : 'Montserrat', sans-serif;
+    }
+
+    .navbar-mobile a {
+        color: #ffffff;
+    }
+
+    /* -----FORMULARIO---- */
+
+    .section-formulario{
+        display: flex;
+        height: 80vh;
+    }
+
+    .google-form {
+        width        : 90vw;
+        height: 70vh;
+        display      : inline-flex;
+        margin: auto;
+    }
+
+    /* -----FOOTER----- */
+
+    .pie-container {
+    width          : 100%;
+    background-size: cover;
+}
+
+#box {
+    display: flex;
+}
+
+.pie-container .grupo-1 {
+    width                : 100%;
+    display              : flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap                  : 80px;
+    padding              : 15px 0;
+}
+
+.lh {
+    margin-left : 30px;
+    margin-right: 60px;
+}
+
+.icono-red {
+    width: 30px;
+}
+
+    /*OCULTOS EN MOBILE*/
+
+    .header-container {
+        display: none;
+    }
+
+    .header-h1 {
+        display: none;
+    }
+
+    .pie-container .grupo-1 .box h2 {
+        display: none;
+    }
+
+    .pie-container .grupo-1 .box p {
+        display: none;
+    }
+}
