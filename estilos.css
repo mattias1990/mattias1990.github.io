@@ -548,7 +548,7 @@ main {
     width            : 100vw;
     height           : 70vh;
     --opacidad-negro : 0.6;
-    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("Imagenes/biblioteca27.png");
+    background-image : linear-gradient(rgba(0, 0, 1, var(--opacidad-negro)), rgba(0, 0, 1, var(--opacidad-negro))), url("imagenes/biblioteca27.png");
     background-size  : cover;
     background-repeat: no-repeat;
 }
